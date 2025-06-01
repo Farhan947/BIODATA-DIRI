@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman Profil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Section 1: Menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Section 2: Judul & Gambar */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            background-color: #f2f2f2;
+        }
+
+        .hero h1 {
+            flex: 1;
+            font-size: 32px;
+        }
+
+        .hero img {
+            flex: 1;
+            max-width: 300px;
+            height: auto;
+        }
+
+        /* Section 3 & 4: Tabel */
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Menu -->
+    <nav>
+        <a href="#biodata">Biodata</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Section 2: Judul dan Gambar -->
+    <div class="hero">
+        <h1>Halo, Saya Ahmad – Seorang Web Developer Islami</h1>
+        <img src="d:\FOTO FARHAN\20230617_140205.jpg" alt="Foto Profil">
+    </div>
+
+    <!-- Section 3: Biodata -->
+    <h2 id="biodata">Biodata Pribadi</h2>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <td>Ahmad Farhan Mustafa</td>
+            <th>Tempat Lahir</th>
+            <td>Depok</td>
+        </tr>
+        <tr>
+            <th>Tanggal Lahir</th>
+            <td>20 Februari 2001</td>
+            <th>Jenis Kelamin</th>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <th>Alamat</th>
+            <td>Jl. Tiga putra rt.005/rw011</td>
+            <th>Telepon</th>
+            <td>08561764346</td>
+        </tr>
+    </table>
+
+    <!-- Section 4: Portofolio -->
+    <h2 id="portofolio">Portofolio</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Proyek</th>
+            <th>Deskripsi</th>
+            <th>Tahun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Website Pesantren</td>
+            <td>Membangun website profil pesantren berbasis HTML & CSS</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aplikasi Islami</td>
+            <td>Aplikasi Untuk belajar islam yang mudah</td>
+            <td>2022</td>
+        </tr>
+    </table>
+
+</body>
+</html>
